@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Seeker Game</title>
+    <link rel="stylesheet" href="./css/game_style.css">
+</head>
+<body>
+
+<script src="./js/game_script.js" ></script>
+
+<!--Transparent Overlay-->
+<div class="overlay-container">
+    <div class="transparent-box">
+        <p id = "timer">Time: 0</p>
+        <a id = "home-button" href = "home_page.html" >
+            <input type="button" id="give-up-button" onclick="giveUp()" value="Give Up"></button>
+        </a>
+    </div>
+</div>
+
+
+<!--Panorama Images-->
+<div class = "panorama-container"> 
+        <img class = "panorama" id="streetViewImage1" alt="Street View Image1" style="display: none;">
+        <img class = "panorama" id="streetViewImage2" alt="Street View Image2" style="display: none;">
+        <img class = "panorama" id="streetViewImage3" alt="Street View Image3" style="display: none;">
+        <img class = "panorama" id="streetViewImage4" alt="Street View Image4" style="display: none;">
+        <img class = "panorama" id="streetViewImage5" alt="Street View Image5" style="display: none;">
+        <img class = "panorama" id="streetViewImage6" alt="Street View Image6" style="display: none;">
+        <img class = "panorama" id="streetViewImage7" alt="Street View Image7" style="display: none;">
+        <img class = "panorama" id="streetViewImage8" alt="Street View Image8" style="display: none;">
+</div>
+<!-- <form id="leaderboard-form" action="back-end/leaderboard.php" method="post">
+    <input type="hidden" name="time" value="[Game time]">
+    <input type="hidden" name="username" value="[Player's username]">
+    <input type="hidden" name="id" value="[Player's unique ID]">
+    <input type="hidden" name="difficulty" value="[Selected difficulty]">
+    <button type="submit" onclick="submitScores()">Submit to Leaderboard</button>
+</form> -->
+</body>
+</html>

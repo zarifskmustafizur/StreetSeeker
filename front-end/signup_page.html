@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up - Street Seeker</title>
+        <link rel="stylesheet" href="css/login_sign-up.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <style>
+            .textbox-container {
+                background-color: white;
+                padding: 20px;
+                border-radius: 5px;
+            }
+            
+            .wrapper p a{
+                color: #fff;
+                text-decoration: none;
+            }
+
+            p a:hover {
+                text-decoration: underline;
+            }
+
+        </style>
+    </head>
+
+<body>
+
+    <div class="wrapper">
+        <form action="back-end/input_to_database.php" method="post">
+            <h1>Create an account</h1>
+            <div class="text-box">
+                <input type="email" id="email" placeholder="Email Address" name="email" required><br><br>
+                <i class='bx bxs-envelope' style='color:#ffffff'></i>
+            </div>
+
+            <div class="text-box">
+                <input type="text" id="username" placeholder="Username" name="username" required><br><br>
+                <i class='bx bxs-user' style='color:#ffffff'></i>
+            </div>
+
+            <div class="text-box">
+                <input type="password" id="password" placeholder="Password" name="password" required><br><br>
+                <i class='bx bxs-lock-alt' style='color:#ffffff'></i>
+            </div>
+
+            <div class="text-box">
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required><br><br>
+                <i class='bx bxs-lock-alt' style='color:#ffffff'></i>
+            </div>
+
+            <p>By signing up, you agree to our Terms and Condition. Learn how we collect, use and share your data in our <a href="landing page.html">Privacy Policy</a></p></p>
+
+            <p>&nbsp;</p> <!-- This is an empty paragraph with a non-breaking space -->
+    
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
