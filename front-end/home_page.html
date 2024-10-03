@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Seeker</title>
+    <link rel="stylesheet" href="./css/homepage_style.css">
+</head>
+<body>
+    <div class="view-initial">
+        <nav>
+            <ul>
+                <li><a href="#" id="play-button" class="button large-button">Play</a></li><br>
+                <li><a href="leaderboard_page.html" class="button small-button">Leaderboard</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="view-deep">
+        <button id="back-button" class="back-button">Back</button>
+        <div id="difficulty-selection">
+            <button class="difficulty-button" data-km = "0.5km" onclick="goToGame(1)">0.5km</button>
+            <button class="difficulty-button" data-km = "1km" onclick="goToGame(2)">1km</button>
+            <button class="difficulty-button" data-km = "2km" onclick="goToGame(3)">2km</button>
+        </div>
+    </div>
+    <script src="./js/homepage_script.js"></script>
+</body>
+</html>

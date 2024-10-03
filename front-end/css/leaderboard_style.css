@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../images/WechatIMG3.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.leaderboard {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.leaderboard h1 {
+    text-align: center;
+}
+
+.leaderboard ul {
+    list-style: none;
+    padding: 0;
+}
+
+.leaderboard ul li {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.leaderboard ul li:last-child {
+    border: none;
+}
+.filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filters .difficulty button,
+.filters .region button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#return-home {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    align-self: auto;
+    width: 60%;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
