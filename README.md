@@ -28,8 +28,3 @@ The goal of **Street Seeker** is to encourage users to stay active and explore n
 ## Live Demo
 You can check out the live demo of Street Seeker here:  
 [Live Demo](https://web.cs.manchester.ac.uk/c60196ap/street_seeker_G_P/landing_page.html)
-
-## Installation
-To run this project locally, follow these steps:
-
-ithub.com/yourusername/street-seeker.git
